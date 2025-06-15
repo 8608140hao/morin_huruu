@@ -1,0 +1,23 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class MongolianDisplay {
+    public static void main(String[] args) {
+        // 创建JFrame窗口
+        JFrame frame = new JFrame("回鹘式蒙古文示例");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(600, 200);
+
+        // 创建包含蒙古文的标签
+        JLabel label = new JLabel();
+        label.setFont(new Font("Noto Sans Mongolian", Font.PLAIN, 48)); // 需要系统支持蒙古文字体
+        label.setText("ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ ᠰᠣᠷᠢᠶ᠎ᠠ"); // 示例文本："蒙古文学习"
+
+        // 添加滚动面板（防止文字过长）
+        JScrollPane scrollPane = new JScrollPane(label);
+        frame.add(scrollPane);
+
+        // 显示窗口
+        frame.setVisible(true);
+    }
+}
