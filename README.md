@@ -1,6 +1,8 @@
 # morin_huruu
 JAVA for Mongolian
 运行说明：
+Study IN 呼伦贝尔
+
 
 需要Java 8或更高版本
 需要系统安装支持蒙古文的字体（推荐安装Noto Sans Mongolian字体）
@@ -26,3 +28,6 @@ Java环境是否支持复杂文本布局（Java 8+默认支持）
 ᠮᠣᠩᠭᠣᠯ - 蒙古
 ᠪᠢᠴᠢᠭ - 文字
 ᠰᠣᠷᠢᠶ᠎ᠠ - 学习（命令式）
+
+
+
